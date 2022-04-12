@@ -1,4 +1,4 @@
-#include "pitches.h"
+#include "notes_de.h"
 
 int melody[] = {
    // the notes are based on this transcription https://musescore.com/user/81676/scores/109350
@@ -57,7 +57,7 @@ double Durations[] = {
    1/8.0, 3/8.0, 1/8.0, 1/8.0, 1/4.0   
   };
 
-  int schalter;
+int schalter;
 
 void setup() {
     pinMode(13,INPUT);
